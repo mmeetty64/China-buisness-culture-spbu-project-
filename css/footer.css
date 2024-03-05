@@ -1,0 +1,53 @@
+footer{
+    height: 20.1rem;
+}
+.footer_line{
+    height: 10px;
+    background-color: #BF3333;
+    border: 0;
+}
+.footer{
+    display: flex;
+    box-sizing: content-box;
+    width: 83.33%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-family: 'SHelvetica_regular', sans-serif;
+    height: 100%;
+}
+.footer_org_logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer_social_media{
+    width: 30%;
+}
+.footer_social_media img{
+    margin-right: 6.5%;
+}
+.footer_contact_details{
+    width: 30%;
+    color: #2A0206;
+}
+.footer_contact_details h1{
+    font-family: 'SHelvetica_bold', sans-serif;
+    font-size: 24px;
+}
+.footer_contact_details p{
+    font-family: 'SHelvetica_regular', sans-serif;
+    font-size: 24px;
+}
+.block_footer_social_media{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.block_footer_social_media p{
+    color: #2A0206;
+    font-size: 15px;
+    font-family: 'SHelvetica_light', sans-serif;
+}

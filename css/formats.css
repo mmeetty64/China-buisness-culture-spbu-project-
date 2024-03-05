@@ -1,0 +1,77 @@
+body{
+    background-color: #FEF0DC;
+}
+.formats_wrapper{
+    display: flex;
+    box-sizing: content-box;
+    width: 76%;
+    justify-content: space-between;
+    align-items: flex-start;;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 199px;
+    margin-bottom: 192px;
+    font-family: 'SHelvetica_regular', sans-serif;
+}
+.formats-block-1{
+    background-color: #C03334;  
+    padding: 50px 70px;
+    border-radius: 73px; 
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.formats-block-1 p{
+    font-size: 1.77vw;
+    color: #FEF8DC;
+    margin: 0 auto;
+    line-height: 2.45vw;
+    filter: drop-shadow(0 3px 3px rgba(0,0,0,0.25));
+}
+.formats-block-1 strong{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 2.86vw;
+    font-weight: 100;
+}
+.formats-block-set{
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    justify-content: space-between;
+}
+.formats-block-set p{
+    font-size: 1.46vw;
+}
+.formats-block-2 {
+    width: 46.7%;
+    background-color: #F8E2C7;
+    border-radius: 93px;
+    padding: 2.24vw 3.28vw;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.formats-block-2  p{
+    color: #2A0206;
+    margin: 0 auto;
+    line-height: 2.08vw;
+}
+.formats-block-2 strong{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 2.29vw;
+    font-weight: 100;
+}
+.formats-block-3{
+    width: 33.9%;
+    background-color: #C74C49;
+    border-radius: 74px;
+    padding: 2.24vw 2.55vw;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.formats-block-3  p{
+    color: #FEF0DC;
+    margin: 0 auto;
+    line-height: 40px;
+    filter: drop-shadow(0 3px 3px rgba(0,0,0,0.25));
+}
+.formats-block-3 strong{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 44.5px;
+    font-weight: 100;
+}
