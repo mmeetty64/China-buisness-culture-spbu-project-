@@ -9,14 +9,14 @@ body{
     align-items: flex-start;;
     margin: auto;
     flex-direction: column;
-    margin-top: 199px;
-    margin-bottom: 192px;
+    margin-top: 10.36vw;
+    margin-bottom: 10vw;
     font-family: 'SHelvetica_regular', sans-serif;
 }
 .formats-block-1{
     background-color: #C03334;  
-    padding: 50px 70px;
-    border-radius: 73px; 
+    padding: 2.60vw 3.65vw;
+    border-radius: 3.80vw; 
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
 }
 .formats-block-1 p{
@@ -33,8 +33,8 @@ body{
 }
 .formats-block-set{
     display: flex;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 3.13vw;
+    margin-bottom: 3.13vw;
     justify-content: space-between;
 }
 .formats-block-set p{
@@ -43,7 +43,7 @@ body{
 .formats-block-2 {
     width: 46.7%;
     background-color: #F8E2C7;
-    border-radius: 93px;
+    border-radius: 4.84vw;
     padding: 2.24vw 3.28vw;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
 }
@@ -60,18 +60,18 @@ body{
 .formats-block-3{
     width: 33.9%;
     background-color: #C74C49;
-    border-radius: 74px;
+    border-radius: 3.85vw;
     padding: 2.24vw 2.55vw;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
 }
 .formats-block-3  p{
     color: #FEF0DC;
     margin: 0 auto;
-    line-height: 40px;
+    line-height: 2.08vw;
     filter: drop-shadow(0 3px 3px rgba(0,0,0,0.25));
 }
 .formats-block-3 strong{
     font-family: 'Hlebozavod_medium', sans-serif;
-    font-size: 44.5px;
+    font-size: 2.29167vw;
     font-weight: 100;
 }
