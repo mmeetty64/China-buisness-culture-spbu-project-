@@ -1,0 +1,173 @@
+.main_wrapper{
+    display: flex;
+    box-sizing: content-box;
+    width: 83.33%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.main_banner{
+    margin-top: 8.65vw;
+    background-image: url(../image/mainBanner.png);
+    width: 100%;
+    height: 31.77vw;
+    background-size: cover;
+}
+.content_main_banner{
+    display: flex;
+    box-sizing: content-box;
+    width: 83.33%;
+    height: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.content_main_banner h1{
+    height: 40%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 5vw;
+    color: #FEF0DC;
+    font-weight: 100;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.content_main_banner h2{
+    height: 30%;
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 3.65vw;
+    color: #FEF0DC;
+    font-weight: 100;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.main_about_us{
+    border: 0.52vw solid #BF3334;
+    border-radius: 100px;
+    color: #2A0206;
+    margin-top: 6.46vw;
+}
+.main_about_us h1{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 3.65vw;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    margin: 2vw;
+}
+.main_about_us p {
+    font-family: 'SHelvetica_regular', sans-serif;
+    font-size: 1.82vw;
+    padding:0 3.65vw 5.21vw;
+    margin: 0;
+    line-height: 2.50vw;
+}
+.main_info{
+    border-radius: 5.21vw;
+    color: #FEF0DC;
+    margin-top: 6.46vw;
+    background-color: #BF3334;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.main_info h1{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 3.65vw;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    margin: 3.91vw;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.main_info p{
+    font-family: 'SHelvetica_regular', sans-serif;
+    font-size: 1.82vw;
+    padding:0 3.65vw 5.10vw;
+    margin: 0;
+    line-height: 2.50vw;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+}
+.faq{
+    margin-top: 6.46vw;
+    color: #2A0206;
+}
+.faq h1{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 3.65vw;
+    font-weight: 100;
+}
+.faq_set_blocks{
+    display: flex;
+    margin-top: 5.21vw;
+    justify-content: space-between;
+}
+.faq_block{
+    width: 21.37vw;
+    height: 26vw;
+    background-color: #F8E2C7;
+    border-radius: 4.17vw;
+    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    padding: 2.08vw 1.56vw;
+}
+.faq_block h2{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 1.56vw;
+    font-weight: 100;
+}
+.faq_block p{
+    font-family: 'SHelvetica_regular', sans-serif;
+    font-size: 1.20vw;
+    line-height: 1.56vw;
+}
+.faq_block a {
+    color: #2A0206;
+    font-family: 'SHelvetica_bold', sans-serif;
+    text-decoration: none;
+}
+.faq_contacts{
+    margin-top: 6.46vw;
+}
+.faq_contacts_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq_contacts_text h1{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 3.65vw;
+    font-weight: 100;
+    color: #FEF0DC;
+    margin: 0;
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+}
+.faq_contacts p{
+    color: #2A0206;
+    font-family: 'SHelvetica_bold', sans-serif;
+    font-size: 2.86vw;
+    width: 43.54vw;
+    margin: 0;
+}
+.faq_contacts_map{
+    margin-top: 6.46vw;
+    margin-bottom: 6.46vw;
+}
+.faq_contacts_map iframe{
+    width: 100%;
+    height: 39.58vw;
+}
+.faq_contacts_text_h{
+    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #C74C49;
+    border-radius: 3.65vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.85vw 3.6vw;
+    height: 100%;
+}
