@@ -156,10 +156,12 @@
 .faq_contacts_map{
     margin-top: 6.46vw;
     margin-bottom: 6.46vw;
+    display: flex;
+    justify-content: center;
 }
 .faq_contacts_map iframe{
-    width: 100%;
-    height: 39.58vw;
+    width: 66.67vw;
+    height: 37.50vw;
 }
 .faq_contacts_text_h{
     filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
