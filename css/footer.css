@@ -29,16 +29,17 @@ footer{
     margin-right: 6.5%;
 }
 .footer_contact_details{
-    width: 30%;
+    width: 36%;
     color: #2A0206;
 }
 .footer_contact_details h1{
     font-family: 'SHelvetica_bold', sans-serif;
     font-size: 1.25vw;
 }
-.footer_contact_details p{
+.footer_contact_details a{
     font-family: 'SHelvetica_regular', sans-serif;
     font-size: 1.25vw;
+    color: #2A0206;
 }
 .block_footer_social_media{
     display: flex;
