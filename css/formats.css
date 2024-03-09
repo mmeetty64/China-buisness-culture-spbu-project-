@@ -15,8 +15,8 @@ body{
 }
 .formats-block-1{
     background-color: #C03334;  
-    padding: 2.60vw 3.65vw;
-    border-radius: 3.80vw; 
+    padding: 3.13vw 3.65vw;
+    border-radius: 3.91vw; 
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
 }
 .formats-block-1 p{
@@ -43,9 +43,10 @@ body{
 .formats-block-2 {
     width: 46.7%;
     background-color: #F8E2C7;
-    border-radius: 4.84vw;
+    border-radius: 3.91vw;
     padding: 2.24vw 3.28vw;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    border: 0.26vw solid #C74C49;
 }
 .formats-block-2  p{
     color: #2A0206;
@@ -60,7 +61,7 @@ body{
 .formats-block-3{
     width: 33.9%;
     background-color: #C74C49;
-    border-radius: 3.85vw;
+    border-radius: 3.91vw;
     padding: 2.24vw 2.55vw;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
 }
