@@ -22,7 +22,7 @@
     justify-content: flex-end;
 }
 .content_main_banner h1{
-    height: 40%;
+    height: 15%;
     margin: 0;
     display: flex;
     justify-content: center;
@@ -34,13 +34,13 @@
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
 }
 .content_main_banner h2{
-    height: 30%;
+    height: 40%;
     margin: 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-family: 'Hlebozavod_medium', sans-serif;
-    font-size: 3.65vw;
+    font-size: 2.50vw;
     color: #FEF0DC;
     font-weight: 100;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
@@ -57,12 +57,13 @@
     font-weight: 100;
     display: flex;
     justify-content: center;
-    margin: 2vw;
+    margin-top: 3.96vw;
+    margin-bottom: 2vw;
 }
 .main_about_us p {
     font-family: 'SHelvetica_regular', sans-serif;
     font-size: 1.82vw;
-    padding:0 3.65vw 5.21vw;
+    padding:0 3.91vw 3.13vw;
     margin: 0;
     line-height: 2.50vw;
 }
@@ -85,13 +86,13 @@
 .main_info p{
     font-family: 'SHelvetica_regular', sans-serif;
     font-size: 1.82vw;
-    padding:0 3.65vw 5.10vw;
+    padding:0 3.91vw 5.10vw;
     margin: 0;
     line-height: 2.50vw;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
 }
 .faq{
-    margin-top: 6.46vw;
+    margin-top: 5.21vw;
     color: #2A0206;
 }
 .faq h1{
@@ -108,17 +109,18 @@
     justify-content: space-between;
 }
 .faq_block{
-    width: 21.37vw;
-    height: 26vw;
+    width: 19.29vw;
+    height: 25.5vw;
     background-color: #F8E2C7;
     border-radius: 4.17vw;
     filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
-    padding: 2.08vw 1.56vw;
+    padding: 2.34vw 2.60vw;
 }
 .faq_block h2{
     font-family: 'Hlebozavod_medium', sans-serif;
     font-size: 1.56vw;
     font-weight: 100;
+    margin-top: 0;
 }
 .faq_block p{
     font-family: 'SHelvetica_regular', sans-serif;
@@ -148,7 +150,7 @@
 }
 .faq_contacts p{
     color: #2A0206;
-    font-family: 'SHelvetica_bold', sans-serif;
+    font-family: 'SHelvetica_regular', sans-serif;
     font-size: 2.86vw;
     width: 43.54vw;
     margin: 0;

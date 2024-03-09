@@ -1,5 +1,5 @@
 footer{
-    height: 15.63vw;
+    height: 9.38vw;
 }
 .footer_line{
     height: 0.52vw;
@@ -9,7 +9,7 @@ footer{
 .footer{
     display: flex;
     box-sizing: content-box;
-    width: 83.33%;
+    width: 66.67%;
     justify-content: space-between;
     align-items: center;
     margin: auto;
@@ -23,18 +23,22 @@ footer{
     justify-content: space-around;
 }
 .footer_social_media{
-    width: 30%;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .footer_social_media img{
     margin-right: 6.5%;
 }
 .footer_contact_details{
-    width: 36%;
+    width: 45%;
     color: #2A0206;
 }
 .footer_contact_details h1{
     font-family: 'SHelvetica_bold', sans-serif;
     font-size: 1.25vw;
+    margin-top: 0;
 }
 .footer_contact_details a{
     font-family: 'SHelvetica_regular', sans-serif;
@@ -53,7 +57,7 @@ footer{
     font-family: 'SHelvetica_light', sans-serif;
 }
 .block_footer_social_media img{
-    width: 2.71vw;
+    width: 3.13vw;
 }
 .footer_gsom{
     width: 9.64vw;
