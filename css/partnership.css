@@ -1,0 +1,104 @@
+.partnership_wrapper{
+    display: flex;
+    box-sizing: content-box;
+    width: 71.35%;
+    margin: 0 auto;
+    flex-direction: column;
+    margin-top: 7.55vw;
+    margin-bottom: 7.55vw;;
+}
+.partnership_h{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 3.65vw;
+    display: flex;
+    justify-content: center;
+    color: #2A0206;
+    margin-bottom: 4.17vw;
+    font-weight: 100;
+}
+.partnership_title{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-weight: 100;
+    color: #FEF8DC;
+    display: flex;
+    height: 5.21vw;
+    background-color: #BB1D1D;
+    border-radius: 3vw;
+    align-items: center;
+}
+.partnership_title_number{
+    font-size: 3.65vw;
+    background-color: #E5A897;
+    width: 6.25vw;
+    height: 6.25vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5vw;
+    font-weight: 100;
+    border: 0.63vw solid #BB1D1D;
+}
+.partnership_title_text{
+    font-size: 2.60vw;
+    width: 83%;
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+.partnership_text_block{
+    border: 0.52vw solid #C03434;
+    border-radius: 5.21vw;
+    margin-top: 2.45vw;
+    margin-bottom: 3.75vw;
+    padding: 2.86vw 4.5vw;
+}
+.partnership_text_block li{
+    font-family: 'SHelvetica_regular', sans-serif;
+    font-size: 1.88vw;
+    font-weight: 100;
+    line-height: 2.60vw;
+    color: #2A0206;
+}
+.partnership_text_block ul{
+    margin: 0;
+}
+.partnership_entry_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3.13vw;
+}
+.partnership_entry_block h1{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-weight: 100;
+    font-size: 3.65vw;
+    width: 30.42vw;
+}
+.partnership_entry_block strong{
+    color: #B0050C;
+}
+.partnership_entry_func{
+    display: flex;
+    flex-direction: column;
+    width: 35.16vw;
+}
+.partnership_entry_func input{
+    border: 0;
+    height: 3.65vw;
+    margin-bottom: 1.04vw;
+    font-family: 'SHelvetica_light', sans-serif;
+    font-size: 1.88vw;
+    font-weight: 100;
+    border-radius: 5.21vw;
+}
+.partnership_entry_func button{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-weight: 100;
+    font-size: 2.60vw;
+    color: #F8F6D9;
+    border: 0;
+    height: 3.65vw;
+    background-color: #C03334;
+    border-radius: 5.21vw;
+    box-shadow: inset 9px -9px 0 0 rgba(0,0,0,0.25)
+}
