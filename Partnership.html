@@ -13,7 +13,7 @@
     <header>
         <section class="header">
             <a href="index.html">Главная</a>
-            <a href="#">Расписание</a>
+            <a href="Timetable.html">Расписание</a>
             <div class="header_logo_image">
                 <img src="image/logo.png">
             </div>
@@ -60,12 +60,12 @@
 
             <div class="partnership_entry_block">
                 <h1>Хотите стать <strong>партнерами КБК?</strong> Мы непременно с Вами свяжемся!</h1>
-                <div class="partnership_entry_func">
-                    <input type="text" placeholder="Имя">
-                    <input type="text" placeholder="Компания">
-                    <input type="email" placeholder="Email">
+                <form class="partnership_entry_func" id="formTelegramActionSubmit">
+                    <input type="text" name="name" placeholder="Имя">
+                    <input type="text" name="company" placeholder="Компания">
+                    <input type="email" name="email" placeholder="Email">
                     <button>Отправить</button>
-                </div>
+                </form>
             </div>
         </div>
     <footer>
@@ -89,5 +89,7 @@
             </div>
         </section>
     </footer>
+    <script src="./js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </body>
 </html>

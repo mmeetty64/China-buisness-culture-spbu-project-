@@ -1,0 +1,15 @@
+.timetable_wrapper{
+    display: flex;
+    box-sizing: content-box;
+    width: 83.33%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.timetable_wrapper h1{
+    font-family: 'Hlebozavod_medium', sans-serif;
+    font-size: 3.65vw;
+    color: #2A0206;
+    font-weight: 100;
+    margin-top: 13.65vw;
+    margin-bottom: 50.47vw;
+}
