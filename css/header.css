@@ -36,3 +36,72 @@ header a{
     color: #2A0206;
     text-decoration: none;
 }
+.menu {
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+header input{
+    display: none;
+}
+.adaptive_header{
+    display: none;
+}
+.burger_menu_logo{
+    display: none;
+}
+@media (max-width: 768px) {
+    header{
+        display: flex;
+        justify-content: space-between;
+        height: 24vw;
+        align-items: center;
+        order: 1; 
+    }
+    header a{
+        font-size: 9vw;
+        padding: 4vw;
+        display: flex;
+        margin-top: 8vw;
+        justify-content: center;
+    }
+    .burger_menu_logo{
+        display: block;
+        width: 20.47vw;
+        height: 20.47vw;
+    }
+    .adaptive_header{
+        display: flex;
+        justify-content: space-between;
+    }
+    .header  {
+        display: none;
+    }
+    /* Скрытие меню */
+    .menu {
+        display: none;
+
+    }
+    /* Стили для бургера */
+    .menu-icon {
+        display: block;
+        cursor: pointer; 
+        font-size: 15vw;
+        margin-top: 2vw;
+        color: #FEF0DC;
+    }
+    .burger_checker:checked ~ .menu {
+        display: flex; /* Показываем меню при активации чекбокса */
+        width: 100%;
+        background-color: #C03334;
+        height: 100%;
+        position: absolute;
+        top: -16vw;
+        z-index: 4;
+        flex-direction: column;
+        margin-top: 40vw;
+       
+    }
+}
+
