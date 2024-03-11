@@ -108,7 +108,7 @@ header input{
         display: flex;
         width: 100%;
         background-color: #C03334;
-        height: 43%;
+        height: 80vw;
         position: absolute;
         top: 25vw;
         z-index: 4;
