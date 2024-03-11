@@ -12,8 +12,8 @@ function handleFormSubmit(event) {
   });
 }
 
-const token = "7168085700:AAGoLTD-Nk6Catt9A316lNKQQjPEHBx6uV8";
-const chat_id = "-1002027733868";
+const token = "";
+const chat_id = "";
 const URI_API = `https://api.telegram.org/bot${token}/sendMessage`;
 const applicantForm = document.getElementById("formTelegramActionSubmit");
 
