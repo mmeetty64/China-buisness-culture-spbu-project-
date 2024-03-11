@@ -56,12 +56,11 @@ header input{
         display: flex;
         justify-content: space-between;
         height: 26vw;
-        align-items: center;
-        order: 1; 
+        align-items: center; 
     }
     header a{
-        font-size: 8vw;
-        padding: 4vw;
+        font-size: 6vw;
+        padding: 3vw;
         display: flex;
         margin-top: 8vw;
         justify-content: center;
@@ -85,6 +84,9 @@ header input{
         display: none;
 
     }
+    .burger_checker{
+        order: 0;
+    }
     /* Стили для бургера */
     .menu-icon {
         display: block;
@@ -94,21 +96,33 @@ header input{
         color: #FEF0DC;
         margin-right: 3vw;
     }
+    .bar1, .bar2, .bar3 {
+        width: 12vw;
+        height: 1.8vw;
+        border-radius: 1vw;
+        background-color: #FEF8DC;
+        margin: 2vw 0;
+        transition: 0.4s;
+    }
     .burger_checker:checked ~ .menu {
-        display: flex; /* Показываем меню при активации чекбокса */
+        display: flex;
         width: 100%;
         background-color: #C03334;
-        height: 100%;
-        position: fixed;
+        height: 43%;
+        position: absolute;
         top: 25vw;
         z-index: 4;
-        flex-direction: column;      
-        padding-top: 4vw;    
+        flex-direction: column;
+        padding-top: 4vw;   
+    }    
+    .burger_checker:checked ~ * .bar1{
+        transform: rotate(-45deg) translate(-2.7vw, 2.5vw);
     }
-    .burger_checker:checked ~ header{
-        position: fixed;
-        top: 0;
+    .burger_checker:checked ~ * .bar2{
+        opacity: 0;
     }
-    
+    .burger_checker:checked ~ * .bar3{
+        transform: rotate(45deg) translate(-2.7vw, -2.5vw);
+    }
 }
 
