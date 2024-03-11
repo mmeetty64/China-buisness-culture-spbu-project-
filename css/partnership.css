@@ -103,3 +103,58 @@
     border-radius: 5.21vw;
     box-shadow: inset 0.47vw -0.47vw 0 0 rgba(0,0,0,0.25)
 }
+@media only screen and (max-width: 768px){
+    .partnership_wrapper{
+        width: 90%;
+        margin-top: 8vw;
+        margin-bottom: 11vw;
+    }
+    .partnership_h{
+        font-size: 8vw;
+        text-align: center;
+        margin-bottom: 6vw;
+    }
+    .partnership_title{
+        height: 16vw;
+        border-radius: 10vw;
+        justify-content: space-between;
+    }
+    .partnership_title_text{
+        font-size: 6vw;
+        width: 83%;
+    }
+    .partnership_title_number{
+        font-size: 10vw;
+        width: 13vw;
+        height: 13vw;
+        border-radius: 13vw;
+        border: 1vw solid #BB1D1D;
+    }
+    .partnership_text_block li{
+        font-size: 4vw;
+        line-height: 5.7vw;
+    }
+    .partnership_text_block{
+        padding: 5vw 5vw;
+    }
+    .partnership_entry_block{
+        flex-wrap: wrap;
+    }
+    .partnership_entry_block h1{
+        width: 100%;
+        font-size: 7vw;
+    }
+    .partnership_entry_func{
+        width: 100%;
+    }
+    .partnership_entry_func input{
+        height: 8vw;
+        font-size: 3.5vw;
+        margin-bottom: 3vw;
+    }
+    .partnership_entry_func button{
+        height: 8vw;
+        font-size: 4vw;
+        box-shadow: inset 1.3vw -1.3vw 0 0 rgba(0,0,0,0.25);        
+    }
+}
