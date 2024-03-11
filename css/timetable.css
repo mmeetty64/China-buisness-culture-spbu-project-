@@ -14,7 +14,9 @@
     margin-bottom: 50.47vw;
 }
 @media only screen and (max-width: 768px){
-    .timetable_wrapper{
+    .timetable_wrapper h1{
         font-size: 8vw;
+        margin-top: 25vw;
+        margin-bottom: 70vw;
     }
 }
