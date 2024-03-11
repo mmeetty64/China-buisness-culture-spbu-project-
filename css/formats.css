@@ -76,3 +76,51 @@ body{
     font-size: 2.29167vw;
     font-weight: 100;
 }
+@media only screen and (max-width: 768px){
+    .formats_wrapper{
+        width: 93%;
+    }
+    .formats-block-1{
+        padding: 6vw 6vw;
+        margin-bottom: 4.5vw;
+        margin-top: 4.5vw;
+    }
+    .formats-block-1 p{
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+    .formats-block-1 strong{
+        font-size: 6vw;
+    }
+    .formats-block-set{
+        flex-wrap: wrap;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .formats-block-2{
+        width: 100%;
+        padding: 6vw 6vw;
+        margin-top: 4.5vw;
+        margin-bottom: 4.5vw;
+    }
+    .formats-block-2 p{
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+    .formats-block-2 strong{
+        font-size: 6vw;
+    }
+    .formats-block-3{
+        width: 100%;
+        padding: 6vw 6vw;
+        margin-top: 4.5vw;
+        margin-bottom: 4.5vw;
+    }
+    .formats-block-3 p{
+        font-size: 4vw;
+        line-height: 5vw;
+    }
+    .formats-block-3 strong{
+        font-size: 6vw;
+    }
+}
