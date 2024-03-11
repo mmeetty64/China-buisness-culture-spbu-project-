@@ -211,17 +211,21 @@
         line-height: 5vw;
         padding: 0 8vw 8vw;
     }
+    .faq{
+        margin-top: 8vw;
+    }
     .faq h1{
         font-size: 8vw;
     }
     .faq_set_blocks{
         flex-wrap: wrap;
         justify-content: center;
+        margin-top: 8vw;
     }
     .faq_block{
         width: 100%;
         height: 85vw;
-        margin-bottom: 7vw;
+        margin-bottom: 8vw;
         padding: 8vw 8vw;
     }
     .faq_block h2{
