@@ -55,21 +55,23 @@ header input{
     header{
         display: flex;
         justify-content: space-between;
-        height: 24vw;
+        height: 26vw;
         align-items: center;
         order: 1; 
     }
     header a{
-        font-size: 9vw;
+        font-size: 8vw;
         padding: 4vw;
         display: flex;
         margin-top: 8vw;
         justify-content: center;
+        margin: 3vw;
     }
     .burger_menu_logo{
         display: block;
         width: 20.47vw;
         height: 20.47vw;
+        margin-left: 3vw;
     }
     .adaptive_header{
         display: flex;
@@ -90,18 +92,23 @@ header input{
         font-size: 15vw;
         margin-top: 2vw;
         color: #FEF0DC;
+        margin-right: 3vw;
     }
     .burger_checker:checked ~ .menu {
         display: flex; /* Показываем меню при активации чекбокса */
         width: 100%;
         background-color: #C03334;
         height: 100%;
-        position: absolute;
-        top: -16vw;
+        position: fixed;
+        top: 25vw;
         z-index: 4;
-        flex-direction: column;
-        margin-top: 40vw;
-       
+        flex-direction: column;      
+        padding-top: 4vw;    
     }
+    .burger_checker:checked ~ header{
+        position: fixed;
+        top: 0;
+    }
+    
 }
 
