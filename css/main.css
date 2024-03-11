@@ -175,3 +175,83 @@
     padding: 4.85vw 3.6vw;
     height: 100%;
 }
+@media only screen and (max-width: 768px){
+    .content_main_banner{
+        width: 90%;
+    }
+    .main_wrapper{
+        width: 93%;
+    }
+    .content_main_banner h1{
+        font-size: 9vw;
+    }
+    .content_main_banner h2{
+        font-size: 4.5vw;
+    }
+    .main_about_us{
+        margin-top: 9vw;
+    }
+    .main_about_us h1{
+        font-size: 8vw;
+        margin-top: 6vw;
+        margin-bottom: 4vw;
+    }
+    .main_about_us p{
+        font-size: 4vw;
+        line-height: 5vw;
+        padding: 0 5vw 6vw;
+    }
+    .main_info h1{
+        font-size: 8vw;
+        margin: 5vw;
+        line-height: 9vw;
+    }
+    .main_info p{
+        font-size: 4vw;
+        line-height: 5vw;
+        padding: 0 5vw 7vw;
+    }
+    .faq h1{
+        font-size: 8vw;
+    }
+    .faq_set_blocks{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .faq_block{
+        width: 60vw;
+        height: 74.61vw;
+        margin-bottom: 7vw;
+        padding: 6.34vw 5.6vw;
+    }
+    .faq_block h2{
+        font-size: 5vw;
+    }
+    .faq_block p{
+        font-size: 3vw;
+        line-height: 4.5vw;
+    }
+    .faq_contacts{
+        margin-top: 4.5vw;
+    }
+    .faq_contacts_text_h{
+        padding: 4.85vw 4.67vw;
+    }
+    .faq_contacts_text {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .faq_contacts_text h1{
+        font-size: 8vw;
+    }
+    .faq_contacts p{
+        padding: 4.85vw 4.67vw;
+        font-size: 5vw;
+        width: 76%;
+    }
+    .faq_contacts_map iframe{
+        width: 72vw;
+        height: 65vw;
+    }
+
+}

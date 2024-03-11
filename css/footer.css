@@ -65,3 +65,49 @@ footer{
 .footer_cbc{
     width: 5.21vw;
 }
+
+@media only screen and (max-width: 768px){
+    .footer{
+        flex-wrap: wrap;
+        width: 90%;
+    }
+    footer{
+        height: 50vw;
+    }
+    .footer_org_logo{
+        width: 100%;
+        justify-content: space-evenly;
+        margin-top: 5vw;
+    }
+    .footer_social_media{
+        width: 100%;
+        align-items: flex-end;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .footer_contact_details{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 1vw;
+        margin-bottom: 5vw;
+    }
+    .footer_contact_details h1{
+        font-size: 3.5vw;
+    }
+    .footer_contact_details a{
+        font-size: 3.5vw;
+    }
+    .block_footer_social_media img {
+        width: 9.13vw;
+    }
+    .footer_gsom{
+        width: 18.64vw;
+    }
+    .footer_cbc{
+        width: 11.21vw;
+    }
+    
+}
