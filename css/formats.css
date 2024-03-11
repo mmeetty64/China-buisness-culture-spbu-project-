@@ -17,14 +17,14 @@ body{
     background-color: #C03334;  
     padding: 3.13vw 3.65vw;
     border-radius: 3.91vw; 
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
 }
 .formats-block-1 p{
     font-size: 1.77vw;
     color: #FEF8DC;
     margin: 0 auto;
     line-height: 2.45vw;
-    filter: drop-shadow(0 3px 3px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.16vw 0.16vw rgba(0,0,0,0.25));
 }
 .formats-block-1 strong{
     font-family: 'Hlebozavod_medium', sans-serif;
@@ -45,7 +45,7 @@ body{
     background-color: #F8E2C7;
     border-radius: 3.91vw;
     padding: 2.24vw 3.28vw;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
     border: 0.26vw solid #C74C49;
 }
 .formats-block-2  p{
@@ -63,13 +63,13 @@ body{
     background-color: #C74C49;
     border-radius: 3.91vw;
     padding: 2.24vw 2.55vw;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
 }
 .formats-block-3  p{
     color: #FEF0DC;
     margin: 0 auto;
     line-height: 2.08vw;
-    filter: drop-shadow(0 3px 3px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.16vw 0.16vw rgba(0,0,0,0.25));
 }
 .formats-block-3 strong{
     font-family: 'Hlebozavod_medium', sans-serif;

@@ -31,7 +31,7 @@
     font-size: 5vw;
     color: #FEF0DC;
     font-weight: 100;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
 }
 .content_main_banner h2{
     height: 40%;
@@ -43,7 +43,7 @@
     font-size: 2.50vw;
     color: #FEF0DC;
     font-weight: 100;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
 }
 .main_about_us{
     border: 0.52vw solid #BF3334;
@@ -72,7 +72,7 @@
     color: #FEF0DC;
     margin-top: 6.46vw;
     background-color: #C74C49;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
 }
 .main_info h1{
     font-family: 'Hlebozavod_medium', sans-serif;
@@ -81,7 +81,7 @@
     display: flex;
     justify-content: center;
     margin: 3.91vw;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
 }
 .main_info p{
     font-family: 'SHelvetica_regular', sans-serif;
@@ -89,7 +89,7 @@
     padding:0 3.91vw 5.10vw;
     margin: 0;
     line-height: 2.50vw;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
 }
 .faq{
     margin-top: 5.21vw;
@@ -113,7 +113,7 @@
     height: 25.5vw;
     background-color: #F8E2C7;
     border-radius: 4.17vw;
-    filter: drop-shadow(0 4px 4px rgba(0,0,0,0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0,0,0,0.25));
     padding: 2.34vw 2.60vw;
 }
 .faq_block h2{
@@ -146,7 +146,7 @@
     font-weight: 100;
     color: #FEF0DC;
     margin: 0;
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0, 0, 0, 0.25));
 }
 .faq_contacts p{
     color: #2A0206;
@@ -166,7 +166,7 @@
     height: 37.50vw;
 }
 .faq_contacts_text_h{
-    filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+    filter: drop-shadow(0 0.21vw 0.21vw rgba(0, 0, 0, 0.25));
     background-color: #C74C49;
     border-radius: 3.65vw;
     display: flex;
